@@ -1,4 +1,3 @@
-
 # -*- coding=utf-8 -*-
 
 import urllib
@@ -23,5 +22,5 @@ get_img(question_url)
 
 """
 urllib.urlretrieve(url[, filename[, reporthook[, data]]])  # 直接将远程数据下载到本地
-正则匹配 需要看一下源代码 决定正则写啥
+正则匹配 需要稍微看一下源代码 决定正则写啥
 """

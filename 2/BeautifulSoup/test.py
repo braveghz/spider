@@ -27,7 +27,7 @@ print soup.p.name   # p
 print soup.p.attrs  # {'class': ['title'], 'name': 'dromouse'}
 print soup.p.get('class')   # ['title']
 
-soup.p['class']="newClass"  # 修改
+soup.p['class'] = "newClass"  # 修改
 print soup.p
 del soup.p['class']         # 删除
 
